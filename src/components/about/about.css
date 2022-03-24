@@ -1,0 +1,147 @@
+#about{
+    height: 100%;
+}
+.about__content{
+    display: grid;
+    grid-template-columns:100%;
+    row-gap: 2.7rem;
+    margin-left: 40px;
+    margin-top: 22px;
+
+}
+section{    
+    overflow: visible;
+    height: 100%;
+
+}
+section > .about__container{
+    display: grid;
+    justify-content: center;
+}
+.about__container{
+    text-align: center;
+    grid-template-columns: auto 35%;
+    grid: column gap 20px;
+    
+}
+.about__container > p{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.about__icon{
+    font-size: 2rem;
+}
+.about__card{
+    max-width: 150px;
+    aspect-ratio: 1/1;
+    padding: 20px;
+    border:2px solid transparent;
+    border-radius: 1.2rem;
+    background: var(--color-cards);
+    text-align: center;
+    
+}
+.para-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+.para-btn > a{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 45%;
+
+}
+.para-btn>p{
+    color: var(--color-text);
+}
+.about__card:hover{
+    background: var(--color-hover);
+    box-shadow:var(--box-shadow-hover);
+}
+.about__card h5{
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-text);
+}
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-text);
+}
+/* image */
+.about__me-image{
+    max-width: 100%;
+    max-height: auto;
+    
+}
+.about__me{
+    max-height:auto;
+    width:auto;
+    background-color: var(--color-bg);
+    
+}
+.about__me:hover{
+    box-shadow: var(--box-shadow-hover);
+}
+.about__me-image > img{
+  max-width:100%;
+  height: auto;
+  float: left;
+  padding: 20px;
+  
+}
+@media screen and (max-width:1024px){
+    .about__me-image > img{
+        max-width: 600px;
+        float:none;
+        
+    }
+    .about__me{
+        display: flex;
+        justify-content: center;
+        background: var(--color-bg);
+    }
+    .about__content{
+        height:15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        
+    }
+    .about__card{
+        width: 500px;
+        height: auto;
+        font-size: 0.7rem;
+        
+    }
+    .about__container {
+        text-align: center;
+    }
+    .about__container > p{
+        margin-bottom: 50px;
+    }
+ 
+}
+@media screen and (max-width:600px){
+.about__container{
+    display:grid;
+    grid-template-columns: 1fr;
+    
+}
+#about{
+    margin-top: 40rem;
+}
+
+
+
+
+}

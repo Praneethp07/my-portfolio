@@ -1,0 +1,8 @@
+#testimonial{
+    height: 100%;
+}
+.testimonial__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
