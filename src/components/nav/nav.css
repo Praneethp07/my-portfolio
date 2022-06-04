@@ -34,3 +34,9 @@ nav a.active{
     background:var(--color-nav-active);
     color: var(--color-white);
 }
+@media screen and (max-width:550px) {
+    .navBar{
+        display: none;
+    }
+
+}

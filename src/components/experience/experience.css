@@ -21,7 +21,7 @@
 }
 .experience__container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     gap:2rem;
     padding-bottom: 30px;
 }
@@ -60,21 +60,9 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
-@media screen and (max-width:1024) {
+@media screen and (max-width:1024px) {
     .experience__container{
-        display: inline-grid;
-        grid-template-columns:auto;
-        
-    }
-    .experience__container > div{
-        width: 80%;
-        padding: 2rem;
-        margin:0 auto;
-    }
-    .experience__content{
-        padding:10px;
-
-
+        grid-template-columns: 100%;
     }
 }
 @media screen and (max-width:600px) {
@@ -84,12 +72,7 @@
         padding: 20px;
         
     }
-    #experience{
-        margin-top: 600px;
-    }
-    .experience__container > div{
-        width: 400px;
-        padding: 2rem 1rem;
-        /* hello upgraded on june 3 */
+    #h1_miss{
+        margin-left:5%;
     }
 }

@@ -2,9 +2,9 @@
     height: 100%;
 }
 .container.contact__container{
-    width: 58%;
+    /* width: 58%; */
     display: grid;
-    grid-template-columns:30% 58%;
+    grid-template-columns:auto auto;
     gap: 12%;
 }
 .content__options{
@@ -61,14 +61,14 @@ input,textarea{
 }
 @media screen and (max-width:1024px) {
     .contact__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: auto auto;
         gap: 2rem;
 
     }
 }
 @media screen and (max-width:600px) {
     .container.contact__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         gap: 2rem;
 
     }

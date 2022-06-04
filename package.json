@@ -9,6 +9,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "animejs": "^3.2.1",
+    "aos": "^2.3.4",
     "emailjs": "^3.8.0",
     "react": "^17.0.2",
     "react-aos": "^1.0.1",

@@ -101,7 +101,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <h1 data-aos="fade-out">--Miscellaneous--</h1>
+        <h1 id='h1_miss' data-aos="fade-out">--Miscellaneous--</h1>
         <div className="container experience__container">
           <div data-aos="fade-up" className="other">
             <h3>Blockchain and Cybersecurity</h3>

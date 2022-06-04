@@ -1,17 +1,13 @@
 #about{
     height: 100%;
+    width: auto;
 }
 .about__content{
     display: grid;
-    grid-template-columns:100%;
+    grid-template-columns:auto;
     row-gap: 2.7rem;
-    margin-left: 40px;
+    margin-left: 4rem;
     margin-top: 22px;
-
-}
-section{    
-    overflow: visible;
-    height: 100%;
 
 }
 section > .about__container{
@@ -21,7 +17,7 @@ section > .about__container{
 .about__container{
     text-align: center;
     grid-template-columns: auto 35%;
-    grid: column gap 20px;
+    padding: 4rem;
     
 }
 .about__container > p{
@@ -42,20 +38,18 @@ section > .about__container{
     
 }
 .para-btn{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+    gap:2rem;
 }
 .para-btn > a{
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 45%;
-
+   margin-left: 42%;
 }
-.para-btn>p{
+.para-btn > p{
+    font-size: 1.5rem;
+    font-weight: 500;
     color: var(--color-text);
 }
 .about__card:hover{
@@ -75,73 +69,44 @@ section > .about__container{
     color: var(--color-text);
 }
 /* image */
-.about__me-image{
-    max-width: 100%;
-    max-height: auto;
-    
-}
+
 .about__me{
-    max-height:auto;
+    height:auto;
     width:auto;
     background-color: var(--color-bg);
+    /* margin-right: 5rem; */
     
 }
 .about__me:hover{
     box-shadow: var(--box-shadow-hover);
 }
 .about__me-image > img{
-  max-width:100%;
+  width: 100%;
   height: auto;
   float: left;
   padding: 20px;
+
   
 }
 @media screen and (max-width:1024px){
-    .about__me-image > img{
-        max-width: 600px;
-        float:none;
-        
-    }
-    .about__me{
-        display: flex;
-        justify-content: center;
-        background: var(--color-bg);
+
+    .about__container{
+        grid-template-columns: auto;
     }
     .about__content{
-        height:15vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap:wrap;
-        
+        grid-template-columns:33.3% 33.3% 33.3%;
     }
-    .about__card{
-        width: 500px;
-        height: auto;
-        font-size: 0.7rem;
-        
-    }
-    .about__container {
-        text-align: center;
-    }
-    .about__container > p{
-        margin-bottom: 50px;
-    }
+    
+
  
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:550px){
 .about__container{
-    display:grid;
-    grid-template-columns: 1fr;
-    
+    grid-template-columns: auto;
+    justify-content: center;
 }
-#about{
-    margin-top: 40rem;
+.about__content{
+grid-template-columns: auto auto;    
 }
-
-
-
 
 }

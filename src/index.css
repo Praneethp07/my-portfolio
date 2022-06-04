@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    
 }
 :root{
     --color-bg:#1f1f38;
@@ -50,6 +51,7 @@
 html{
     scroll-behavior: smooth;
     height: 100%;
+    justify-content: center;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -60,7 +62,9 @@ body{
     background:var(--color-bg);
     color: var(--color-light);
     line-height: 1.7;
+    
 }
+
 
 
 /* general */
@@ -69,6 +73,8 @@ body{
     margin:auto auto;
 
 }
+
+
 h1,
 h2,
 h3,
@@ -133,24 +139,24 @@ img{
     .container{
         width: var(--container-width-md);
     }
-
-    section{
-        margin-top:6rem;
-    }
 } 
 
 
- @media screen and (max-width:600px) {
+ @media screen and (max-width:550px) {
     .container{
-        min-width: 90%;
-        padding: 20px;
-        margin-left: 7rem;
+        width: 550px;
+        padding: 30px;
+        /* margin-left:1.5rem; */
+
     }
-    section{
-        display: inline-block;
-        justify-content: center;
+    .root-container{
+        width:550px;
     }
-    section > h2{
-        margin-bottom:2rem;
+
+    h2,
+    h3,
+    h4,h5{
+        margin-left: 5%;
     }
+
 } 

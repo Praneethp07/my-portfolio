@@ -15,7 +15,7 @@ const about = () => {
       <h2>About me</h2>
       <div className="container about__container">
         <div data-aos='fade-right' data-aos-delay='100' className="about__me">
-          <div className="about__me-image">
+          <div id='pic' className="about__me-image">
             <img src={ME} alt="me" />
           </div>
           </div>

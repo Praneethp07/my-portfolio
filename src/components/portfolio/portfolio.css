@@ -18,7 +18,7 @@
 }
 .portfolio__item-image > img
 {
-    width: 20rem;
+    width: 25rem;
     height: auto;
     align-items: center;
     
@@ -44,18 +44,21 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:600px) {
     .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        grid-template-columns: auto;
+        gap: 3rem;
+    }
+    .portfolio__item-image > img
+    {
+    width: 35rem;
     }
 }
 @media screen and (max-width:600px) {
     .portfolio__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         gap: 0.1rem;
-        
-        
+         
     }
     .portfolio__item{
         margin: 30px;
