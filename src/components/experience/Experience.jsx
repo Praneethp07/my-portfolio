@@ -51,6 +51,13 @@ const Experience = () => {
                 <small className='text-light'>beginer</small>
                 </div>
               </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icons'/>
+                <div>
+                <h4>FLUTTER</h4>
+                <small className='text-light'>beginer</small>
+                </div>
+              </article>
             </div>
           </div>
           <div data-aos="fade-left" className="backend">
@@ -77,13 +84,13 @@ const Experience = () => {
                 <small className='text-light'>beginer</small>
                 </div>
               </article>
-              <article className='experience__details'>
+              {/* <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                 <div>
                 <h4>JQUERY</h4>
                 <small className='text-light'>beginer</small>
                 </div>
-              </article>
+              </article> */}
               <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                 <div>
@@ -94,7 +101,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                 <div>
-                <h4>MONGO-DB</h4>
+                <h4>MY-SQL</h4>
                 <small className='text-light'>beginer</small>
                 </div>
               </article>
@@ -104,22 +111,23 @@ const Experience = () => {
         <h1 id='h1_miss' data-aos="fade-out">--Miscellaneous--</h1>
         <div className="container experience__container">
           <div data-aos="fade-up" className="other">
-            <h3>Blockchain and Cybersecurity</h3>
+            {/* <h3>Blockchain and Cybersecurity</h3> */}
+            <h3>Cybersecurity</h3>
             <div className="experience__content">
-              <article className='experience__details'>
+              {/* <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                 <div>
                 <h4>solidity</h4>
                 <small className='text-light'>beginer</small>
                 </div>
-              </article>
-              <article className='experience__details'>
+              </article> */}
+              {/* <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                <div>
                <h4>RUST</h4>
                 <small className='text-light'>beginer</small>
                </div>
-              </article>
+              </article> */}
               <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icons'/>
                 <div>

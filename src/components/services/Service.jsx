@@ -15,7 +15,7 @@ const Service = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className='serivce__list'>
-            <li>
+            {/* <li>
               <BiCheck className='check__icon'/>
               <p>Custom Web Design & Development</p>
             </li>
@@ -26,7 +26,7 @@ const Service = () => {
             <li>
               <BiCheck className='check__icon'/>
               <p>Wireframing</p>
-            </li>
+            </li> */}
             <li>
               <BiCheck className='check__icon'/>
               <p>Mobile App Design</p>
@@ -47,14 +47,14 @@ const Service = () => {
             <h3>Web Development</h3>
           </div>
           <ul className='serivce__list'>
-            <li>
+            {/* <li>
               <BiCheck className='check__icon'/>
               <p>Ongoing Website Maintenance</p>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <BiCheck className='check__icon'/>
               <p> WordPress Support</p>
-            </li>
+            </li> */}
             <li>
               <BiCheck className='check__icon'/>
               <p>Hosting</p>
@@ -72,14 +72,22 @@ const Service = () => {
               <BiCheck className='check__icon'/>
               <p>Ad Design</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='check__icon'/>
               <p>Social Media Management</p>
+            </li> */}
+            <li>
+              <BiCheck className='check__icon'/>
+              <p>Website design using react</p>
+            </li>
+            <li>
+              <BiCheck className='check__icon'/>
+              <p>deploy websites on aws E2C and maintaince</p>
             </li>
           </ul>
         </article>
         {/* end */}
-        <article data-aos="fade-left" data-aos-delay='300' className='service'>
+        {/* <article data-aos="fade-left" data-aos-delay='300' className='service'>
           <div className="service__head">
             <h3>CyberSecurity</h3>
           </div>
@@ -96,6 +104,26 @@ const Service = () => {
               <BiCheck className='check__icon'/>
               <p>A backup plan to recover all lost or stolen data</p>
             </li>
+
+          </ul>
+        </article> */}
+         <article data-aos="fade-left" data-aos-delay='300' className='service'>
+          <div className="service__head">
+            <h3>Mobile & Desktop Development</h3>
+          </div>
+          <ul className='serivce__list'>
+            <li>
+              <BiCheck className='check__icon'/>
+              <p>create mobile apps using java or dart</p>
+            </li>
+            <li>
+              <BiCheck className='check__icon'/>
+              <p>create desktop application using japplet and javafx</p>
+            </li>
+            {/* <li>
+              <BiCheck className='check__icon'/>
+              <p>A backup plan to recover all lost or stolen data</p>
+            </li> */}
 
           </ul>
         </article>

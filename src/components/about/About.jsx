@@ -18,7 +18,7 @@ const about = () => {
           <div id='pic' className="about__me-image">
             <img src={ME} alt="me" />
           </div>
-          </div>
+        </div>
         <div data-aos='fade-left' data-aos-delay='100' className="about__content">
           <article className='about__card'>
             <FaAward className='about__icon' />
@@ -38,10 +38,11 @@ const about = () => {
         </div>
       </div>
       <div className="container para-btn">
-      <p data-aos='fade-up' data-aos-delay='200'>
-      I help designers, small agencies and businesses bring their ideas to life. Powered by Figma, VS Code and coffee, I turn your requirements into CMS-ified and ecommerce-ified websites - on time and on budget.
+        <p data-aos='fade-up' data-aos-delay='200'>
+          I am a programing enthusiast. Trying to explore new technologies ,I am
+          flexible with different domains .powered by coffee and i like to contribute in opensource
         </p>
-        <a className='btn btn-primary' href="#contact">let's talk</a>
+        <a className='btn btn-primary' id='ltb' href="#contact"><h3>let's talk</h3></a>
       </div>
     </section>
   )

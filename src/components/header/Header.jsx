@@ -20,15 +20,11 @@ const Headder = () => {
           wrapper='span'
           steps={[
             'developer',
-            1000,
+            900,
             'designer',
-            1000,
-            'Hacker',
-            1000,
-            'FreeLancer',
-            1000,
+            900,
             'Open source contributer',
-            1000
+            900
           ]}
           />
       </span>
